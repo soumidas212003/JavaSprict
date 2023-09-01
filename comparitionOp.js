@@ -1,0 +1,16 @@
+var a=10;
+//var b=10;
+var b="10";
+//console.log(a==b);
+//console.log(a===b);
+//console.log(2!=3);
+//console.log(2!=2);
+//console.log(2!=2);
+//console.log(2!='2');
+//console.log(2!=='2');
+//console.log(2 > 4);
+//console.log(20 > 4);
+//console.log(20 >= 4);
+//console.log(20 > 20);
+//console.log(null==undefined);
+console.log(null===undefined);
