@@ -48,3 +48,90 @@ document.write(a+"<br><br>");
 //let b=a.lastIndexOf("soumi");
 //let b=a.lastIndexOf("sou",2);
 document.write(b);*/
+
+//includes() Method
+
+/*let a=["sou",45,82,"👍"];
+document.write(a+"<br>");
+let b=a.includes("👍");
+document.write(b);*/
+
+//some() Method
+
+/*let ages=[10,20,5,15];
+document.write(ages+"<br>");
+let b=ages.some(CheckAdult);
+document.write(b+"<br>");
+function CheckAdult(age){
+    return age>=18;
+}*/
+
+//every() Method
+
+/*let ages=[10,20,5,15];
+document.write(ages+"<br>");
+let b=ages.every(CheckAdult);
+document.write(b+"<br>");
+function CheckAdult(age){
+    return age>=18;
+}*/
+
+//find() Method
+
+/*let ages=[10,20,5,15];
+document.write(ages+"<br>");
+let b=ages.find(CheckAdult);
+document.write(b+"<br>");
+function CheckAdult(age){
+    return age>=18;
+}*/
+
+//findIndex() Method
+
+/*let ages=[10,20,5,15];
+document.write(ages+"<br>");
+let b=ages.findIndex(CheckAdult);
+document.write(b+"<br>");
+function CheckAdult(age){
+    return age>=18;
+}*/
+
+//filter() Method
+
+/*let ages=[10,20,5,18];
+document.write(ages+"<br>");
+let b=ages.filter(CheckAdult);
+document.write(b+"<br>");
+function CheckAdult(age){
+    return age>=18;
+}*/
+
+//tostring() Method
+
+/*let a=["Sou","Mou","Soumi","Suchi"];
+let b=a.toString();
+document.write(b+"<br>");
+document.write(typeof(b));*/
+
+//valueof() Method
+/*let a=["Sou","Mou","Soumi","Suchi"];
+document.write(a.valueOf());*/
+
+//fill() Method
+
+/*let a=["Sou","Mou","Soumi","Suchi"];
+a.fill("virat");
+document.write(a);*/
+
+//forEach Method
+
+/*let a=["Sou","Mou","Soumi","Suchi"];
+a.forEach(function(value,index){
+    document.write(index+":"+value+"<br>");
+});*/
+
+let a=["Sou","Mou","Soumi","Suchi"];
+a.forEach(loop);
+function loop(value,index){
+    document.write(index+":"+value+"<br>");
+}
