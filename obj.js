@@ -5,8 +5,13 @@ let a={
     favSub : ["Computer","Math","Geography"],
     fullname : function(){
         return this.fname+" "+this.lname;
+    },
+    address : {
+        post : "Angust",
+        dist : "Hooghly"
     }
 };
 document.write(a.fname+"<br>");
 document.write(a.favSub[2]+"<br>");
-document.write(a.fullname());
+document.write(a.fullname()+"<br>");
+document.write(a.address.dist);
